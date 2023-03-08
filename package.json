@@ -1,0 +1,21 @@
+{
+  "homepage": "https://trilshane.github.io/pomidoroTimer",
+  "name": "pomidor-timer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "sass": "^1.58.3"
+  }
+}
